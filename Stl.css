@@ -5,10 +5,12 @@
     list-style: none;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    scrollbar-color: green;
 }
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(171, 255, 46, 0.8);
+    /* background-color: rgb(171, 255, 46, 0.8); */
+    background: linear-gradient(to right, rgb(171, 255, 46, 0.2) 20%, rgb(0, 128, 0) 80%)
 }
 
 /*premier partie*/
@@ -202,11 +204,11 @@ header .list li a{
     flex-direction: column;
 }
 .corps #mssn, #obj, #prtclrt{
-    background-color: rgb(7, 88, 24, 0.7);
+    background-color: rgb(255, 255, 255, 0.6);
 }
 .corps img:hover{
     transition: 0.5s;
-    filter: drop-shadow(0px 0px 10px rgb(34, 230, 76));
+    filter: drop-shadow(0px 0px 10px rgb(0, 0, 0, 0.6));
     transform: scale3d(0.9, 0.95, 1);
     transform-origin: bottom;
 }
@@ -409,6 +411,7 @@ footer hr{
         filter: drop-shadow(0px 0px 10px rgb(7, 88, 24));
     }
     .logo{
+        cursor: pointer;
         width: 4.4cm;
         height:4.4cm;
         position: relative;
@@ -473,6 +476,7 @@ footer hr{
         height: 5cm;
         position: relative;
         border-radius: 96px;
+        cursor: pointer;
     }
     .logo:hover{
         transition: 1s cubic-bezier(1,.03,.3,1.82);
