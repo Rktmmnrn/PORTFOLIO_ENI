@@ -194,7 +194,7 @@ header .list li a{
     padding: 0px 10px;
     align-items: center;
     display: flex;
-    border-radius: 30px;
+    border-radius: 15px;
     box-shadow: 0px 5px 10px rgb(7, 88, 24, 0.6);
 }
 .corps{
@@ -222,6 +222,7 @@ header .list li a{
     width: 97%;
     height: 90%;
     border-radius: 5px;
+    cursor: pointer;
 }
 .corps .sousobj{
     display: flex;
@@ -233,6 +234,7 @@ header .list li a{
 .corps .object .sousobj img{
     width: 250px;
     height: 70%;
+    cursor: pointer;
 }
 .corps .souspartic{
     display: flex;
@@ -245,6 +247,7 @@ header .list li a{
     height: 90%;
     width: 100%;
     border-radius: 10px;
+    cursor: pointer;
 }
 .corps .partic{
     justify-content: space-between;
